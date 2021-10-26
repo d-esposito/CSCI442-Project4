@@ -205,7 +205,49 @@ void Simulation::handle_dispatcher_invoked(const std::shared_ptr<Event> event) {
 //==============================================================================
 
 SystemStats Simulation::calculate_statistics() {
-    // TODO: Calculate the system statistics
+    for (auto it = this->processes.begin(); it != this->processes.end(); it++) {
+        std::vector<std::shared_ptr<Thread>> t_list = it->second->threads;
+        
+        for (std::shared_ptr<Thread> t : t_list) {
+            this->system_stats.io_time += t->io_time;
+            this->system_stats.service_time += t->service_time;
+
+            int p = 0;
+            switch (t->priority) {
+                case SYSTEM:
+                    p = 0;
+                    break;
+                case INTERACTIVE:
+                    p = 1;
+                    break;
+                case NORMAL:
+                    p = 2;
+                    break;
+                case BATCH:
+                    p = 3;
+                    break;
+            }
+            this->system_stats.thread_counts[p]++;
+            this->system_stats.avg_thread_response_times[p] += t->response_time();
+            this->system_stats.avg_thread_turnaround_times[p] += t->turnaround_time();
+        }
+    }
+
+    for (int i = 0; i < 4; i++) {
+        size_t count = this->system_stats.thread_counts[i];
+
+        if (count == 0) continue;
+
+        this->system_stats.avg_thread_response_times[i] /= count;
+        this->system_stats.avg_thread_turnaround_times[i] /= count;
+    }
+
+    this->system_stats.total_cpu_time = this->system_stats.service_time + this->system_stats.dispatch_time;
+    this->system_stats.total_idle_time = this->system_stats.total_time - this->system_stats.total_cpu_time;
+
+    this->system_stats.cpu_utilization = ((double) this->system_stats.total_cpu_time) / ((double) this->system_stats.total_time) * 100;
+    this->system_stats.cpu_efficiency = ((double) this->system_stats.service_time) / ((double) this->system_stats.total_time) * 100;
+
     return this->system_stats;
 }
 
