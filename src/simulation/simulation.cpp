@@ -1,8 +1,9 @@
 #include <fstream>
 #include <iostream>
 
-#include "algorithms/fcfs/fcfs_algorithm.hpp"
 // TODO: Include your other algorithms as you make them
+#include "algorithms/fcfs/fcfs_algorithm.hpp"
+#include "algorithms/spn/spn_algorithm.hpp"
 
 #include "simulation/simulation.hpp"
 #include "types/enums.hpp"
@@ -10,12 +11,12 @@
 #include "utilities/flags/flags.hpp"
 
 Simulation::Simulation(FlagOptions flags) {
-    // Hello!
+    // TODO: Put in rest of the algorithms here
     if (flags.scheduler == "FCFS") {
         // Create a FCFS scheduling algorithm
         this->scheduler = std::make_shared<FCFSScheduler>();
-
-    // TODO: Add your other algorithms as you make them
+    } else if (flags.scheduler == "SPN") {
+        this->scheduler = std::make_shared<SPNScheduler>();
     } else {
         throw("No scheduler found for " + flags.scheduler);        
     }

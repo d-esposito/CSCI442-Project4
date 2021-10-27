@@ -6,10 +6,6 @@
 #define FMT_HEADER_ONLY
 #include "utilities/fmt/format.h"
 
-/*
-    Here is where you should define the logic for the FCFS algorithm.
-*/
-
 FCFSScheduler::FCFSScheduler(int slice) {
     if (slice != -1) {
         throw("FCFS must have a timeslice of -1");

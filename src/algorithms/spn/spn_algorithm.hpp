@@ -3,15 +3,13 @@
 
 #include <memory>
 #include "algorithms/scheduling_algorithm.hpp"
+#include "utilities/stable_priority_queue/stable_priority_queue.hpp"
 
 /*
-    FCFSScheduler:
-        A representation of a scheduling queue that uses first-come, first-served logic.
+    SPNScheduler:
+        A representation of a scheduling queue that uses shortest process next logic.
         
         This is a derived class from the base scheduling algorithm class.
-
-        You are free to add any member functions or member variables that you
-        feel are helpful for implementing the algorithm.
 */
 
 class SPNScheduler : public Scheduler {
@@ -21,7 +19,7 @@ public:
     //  Member variables
     //==================================================
 
-    // TODO: Priority queue
+    Stable_Priority_Queue<std::shared_ptr<Thread>> ready_queue;
 
     //==================================================
     //  Member functions
