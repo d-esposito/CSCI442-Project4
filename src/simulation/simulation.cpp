@@ -4,6 +4,7 @@
 // TODO: Include your other algorithms as you make them
 #include "algorithms/fcfs/fcfs_algorithm.hpp"
 #include "algorithms/spn/spn_algorithm.hpp"
+#include "algorithms/rr/rr_algorithm.hpp"
 
 #include "simulation/simulation.hpp"
 #include "types/enums.hpp"
@@ -16,8 +17,10 @@ Simulation::Simulation(FlagOptions flags) {
         this->scheduler = std::make_shared<FCFSScheduler>();
     } else if (flags.scheduler == "SPN") {
         this->scheduler = std::make_shared<SPNScheduler>();
+    } else if (flags.scheduler == "RR") {
+        this->scheduler = std::make_shared<RRScheduler>();
     } else {
-        throw("No scheduler found for " + flags.scheduler);        
+        throw("No scheduler found for " + flags.scheduler);
     }
     this->flags = flags;
     this->logger = Logger(flags.verbose, flags.per_thread, flags.metrics);
