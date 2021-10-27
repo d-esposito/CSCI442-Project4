@@ -13,7 +13,6 @@
 Simulation::Simulation(FlagOptions flags) {
     // TODO: Put in rest of the algorithms here
     if (flags.scheduler == "FCFS") {
-        // Create a FCFS scheduling algorithm
         this->scheduler = std::make_shared<FCFSScheduler>();
     } else if (flags.scheduler == "SPN") {
         this->scheduler = std::make_shared<SPNScheduler>();
