@@ -23,13 +23,13 @@ public:
 
     std::queue<std::shared_ptr<Thread>> ready_queue;
 
-    int slice;
+    int time_slice;
 
     //==================================================
     //  Member functions
     //==================================================
 
-    RRScheduler(int slice = 3);
+    RRScheduler(int slice = -1);
 
     std::shared_ptr<SchedulingDecision> get_next_thread();
 
