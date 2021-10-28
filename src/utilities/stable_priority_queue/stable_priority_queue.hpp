@@ -88,6 +88,14 @@ class Stable_Priority_Queue {
 
         return *this;
     }
+
+    // ADDED FUNCTION
+    /** 
+     * Returns the mQueues map to use in getting the size of each queue
+     */
+    std::map<int, std::queue<T>> getMQueues() {
+        return mQueues;
+    }
 };
 
 #endif  // STABLE_PRIORITY_QUEUE

@@ -5,6 +5,7 @@
 #include "algorithms/fcfs/fcfs_algorithm.hpp"
 #include "algorithms/spn/spn_algorithm.hpp"
 #include "algorithms/rr/rr_algorithm.hpp"
+#include "algorithms/priority/priority_algorithm.hpp"
 
 #include "simulation/simulation.hpp"
 #include "types/enums.hpp"
@@ -25,6 +26,8 @@ Simulation::Simulation(FlagOptions flags) {
             this->scheduler = std::make_shared<RRScheduler>(flags.time_slice);
             this->scheduler->time_slice = flags.time_slice;
         }
+    } else if (flags.scheduler == "PRIORITY") {
+        this->scheduler = std::make_shared<PRIORITYScheduler>();
     } else {
         throw("No scheduler found for " + flags.scheduler);
     }
