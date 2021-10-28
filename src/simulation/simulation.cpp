@@ -18,7 +18,7 @@ Simulation::Simulation(FlagOptions flags) {
     } else if (flags.scheduler == "SPN") {
         this->scheduler = std::make_shared<SPNScheduler>();
     } else if (flags.scheduler == "RR") {
-        this->scheduler = std::make_shared<RRScheduler>();
+        this->scheduler = std::make_shared<RRScheduler>(flags.time_slice);
     } else {
         throw("No scheduler found for " + flags.scheduler);
     }
