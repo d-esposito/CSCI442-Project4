@@ -23,8 +23,6 @@ public:
 
     std::queue<std::shared_ptr<Thread>> ready_queue;
 
-    int time_slice;
-
     //==================================================
     //  Member functions
     //==================================================
