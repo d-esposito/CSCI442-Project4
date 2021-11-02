@@ -1,4 +1,4 @@
-#ifndef RR_ALGORITHM_HPP
+#ifndef MLFQ_ALGORITHM_HPP
 #define MLFQ_ALGORITHM_HPP
 
 #include <memory>

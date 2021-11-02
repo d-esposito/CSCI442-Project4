@@ -6,6 +6,7 @@
 #include "algorithms/spn/spn_algorithm.hpp"
 #include "algorithms/rr/rr_algorithm.hpp"
 #include "algorithms/priority/priority_algorithm.hpp"
+#include "algorithms/mlfq/mlfq_algorithm.hpp"
 
 #include "simulation/simulation.hpp"
 #include "types/enums.hpp"
@@ -19,13 +20,11 @@ Simulation::Simulation(FlagOptions flags) {
     } else if (flags.scheduler == "SPN") {
         this->scheduler = std::make_shared<SPNScheduler>();
     } else if (flags.scheduler == "RR") {
-        if (flags.time_slice <= 0) {
-            this->scheduler = std::make_shared<RRScheduler>(3);
-        } else {
-            this->scheduler = std::make_shared<RRScheduler>(flags.time_slice);
-        }
+        this->scheduler = std::make_shared<RRScheduler>(flags.time_slice);
     } else if (flags.scheduler == "PRIORITY") {
         this->scheduler = std::make_shared<PRIORITYScheduler>();
+    } else if (flags.scheduler == "MLFQ") {
+        this->scheduler = std::make_shared<MLFQScheduler>(flags.time_slice);
     } else {
         throw("No scheduler found for " + flags.scheduler);
     }
