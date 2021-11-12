@@ -109,6 +109,8 @@ public:
 
 
     // TODO: Add any other variables you may find useful to have, especially for the MLFQ and CFS algorithms!
+    int time_in_queue = 0;
+    int previous_queue = 0;
 
     //==================================================
     //  Member functions

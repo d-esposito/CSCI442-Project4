@@ -3,6 +3,7 @@
 
 #include <memory>
 #include "algorithms/scheduling_algorithm.hpp"
+#include "utilities/stable_priority_queue/stable_priority_queue.hpp"
 
 /*
     MLFQScheduler:
@@ -21,7 +22,7 @@ public:
     //  Member variables
     //==================================================
 
-    std::queue<std::shared_ptr<Thread>> ready_queue;
+    Stable_Priority_Queue<std::shared_ptr<Thread>> ready_queue[10];
 
     //==================================================
     //  Member functions
