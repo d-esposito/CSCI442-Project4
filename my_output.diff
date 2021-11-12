@@ -1,0 +1,584 @@
+9c9
+<     Selected from 0 threads (vruntime = 0). Will run for at most 48 ticks.
+---
+>     Selected from 1 threads (vruntime = 0). Will run for at most 48 ticks.
+54c54
+<     Selected from 5 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+74c74
+<     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 0). Will run for at most 3 ticks.
+89c89
+<     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 0). Will run for at most 3 ticks.
+104c104
+<     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 0). Will run for at most 3 ticks.
+119c119
+<     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 0). Will run for at most 3 ticks.
+134c134
+<     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 0). Will run for at most 3 ticks.
+149c149
+<     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 0). Will run for at most 3 ticks.
+164c164
+<     Selected from 5 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+179c179
+<     Selected from 5 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+194c194
+<     Selected from 5 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+209c209
+<     Selected from 5 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+229c229
+<     Selected from 5 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+244c244
+<     Selected from 5 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+259c259
+<     Selected from 5 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+274c274
+<     Selected from 5 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+294c294
+<     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 0). Will run for at most 3 ticks.
+309c309
+<     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 0). Will run for at most 3 ticks.
+324c324
+<     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 0). Will run for at most 3 ticks.
+339c339
+<     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 0). Will run for at most 3 ticks.
+354c354
+<     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 0). Will run for at most 3 ticks.
+369c369
+<     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 0). Will run for at most 3 ticks.
+384c384
+<     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 0). Will run for at most 3 ticks.
+399c399
+<     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 0). Will run for at most 3 ticks.
+414c414
+<     Selected from 5 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+429c429
+<     Selected from 4 threads (vruntime = 1). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 1). Will run for at most 8 ticks.
+444c444
+<     Selected from 4 threads (vruntime = 1). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 1). Will run for at most 8 ticks.
+464c464
+<     Selected from 5 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+484c484
+<     Selected from 6 threads (vruntime = 0). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 0). Will run for at most 3 ticks.
+499c499
+<     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 1). Will run for at most 3 ticks.
+514c514
+<     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 1). Will run for at most 3 ticks.
+529c529
+<     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 1). Will run for at most 3 ticks.
+544c544
+<     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 1). Will run for at most 3 ticks.
+559c559
+<     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 1). Will run for at most 3 ticks.
+574c574
+<     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 1). Will run for at most 3 ticks.
+589c589
+<     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 1). Will run for at most 3 ticks.
+604c604
+<     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 1). Will run for at most 3 ticks.
+619c619
+<     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 1). Will run for at most 3 ticks.
+634c634
+<     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 1). Will run for at most 3 ticks.
+649c649
+<     Selected from 5 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+664c664
+<     Selected from 4 threads (vruntime = 1). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 1). Will run for at most 8 ticks.
+684c684
+<     Selected from 5 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+699c699
+<     Selected from 5 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+719c719
+<     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 1). Will run for at most 3 ticks.
+734c734
+<     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 1). Will run for at most 3 ticks.
+749c749
+<     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 1). Will run for at most 3 ticks.
+764c764
+<     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 1). Will run for at most 3 ticks.
+779c779
+<     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 1). Will run for at most 3 ticks.
+794c794
+<     Selected from 5 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+809c809
+<     Selected from 4 threads (vruntime = 2). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 2). Will run for at most 8 ticks.
+829c829
+<     Selected from 5 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+844c844
+<     Selected from 5 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+859c859
+<     Selected from 5 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+879c879
+<     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 1). Will run for at most 3 ticks.
+894c894
+<     Selected from 6 threads (vruntime = 1). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 1). Will run for at most 3 ticks.
+909c909
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+924c924
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+939c939
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+954c954
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+969c969
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+984c984
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+999c999
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+1014c1014
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+1029c1029
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+1044c1044
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+1059c1059
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+1074c1074
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+1089c1089
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+1104c1104
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+1119c1119
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+1134c1134
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+1149c1149
+<     Selected from 5 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+1164c1164
+<     Selected from 4 threads (vruntime = 2). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 2). Will run for at most 8 ticks.
+1179c1179
+<     Selected from 3 threads (vruntime = 3). Will run for at most 3 ticks.
+---
+>     Selected from 4 threads (vruntime = 3). Will run for at most 3 ticks.
+1209c1209
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+1224c1224
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+1239c1239
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+1254c1254
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+1269c1269
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+1284c1284
+<     Selected from 6 threads (vruntime = 2). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 2). Will run for at most 3 ticks.
+1299c1299
+<     Selected from 6 threads (vruntime = 3). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 3). Will run for at most 3 ticks.
+1314c1314
+<     Selected from 5 threads (vruntime = 3). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 3). Will run for at most 3 ticks.
+1329c1329
+<     Selected from 5 threads (vruntime = 3). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 3). Will run for at most 3 ticks.
+1344c1344
+<     Selected from 5 threads (vruntime = 3). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 3). Will run for at most 3 ticks.
+1364c1364
+<     Selected from 6 threads (vruntime = 3). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 3). Will run for at most 3 ticks.
+1379c1379
+<     Selected from 6 threads (vruntime = 3). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 3). Will run for at most 3 ticks.
+1394c1394
+<     Selected from 6 threads (vruntime = 3). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 3). Will run for at most 3 ticks.
+1409c1409
+<     Selected from 6 threads (vruntime = 3). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 3). Will run for at most 3 ticks.
+1424c1424
+<     Selected from 6 threads (vruntime = 3). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 3). Will run for at most 3 ticks.
+1439c1439
+<     Selected from 6 threads (vruntime = 3). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 3). Will run for at most 3 ticks.
+1454c1454
+<     Selected from 6 threads (vruntime = 3). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 3). Will run for at most 3 ticks.
+1469c1469
+<     Selected from 6 threads (vruntime = 3). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 3). Will run for at most 3 ticks.
+1484c1484
+<     Selected from 6 threads (vruntime = 3). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 3). Will run for at most 3 ticks.
+1499c1499
+<     Selected from 6 threads (vruntime = 3). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 3). Will run for at most 3 ticks.
+1514c1514
+<     Selected from 6 threads (vruntime = 3). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 3). Will run for at most 3 ticks.
+1529c1529
+<     Selected from 6 threads (vruntime = 3). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 3). Will run for at most 3 ticks.
+1544c1544
+<     Selected from 6 threads (vruntime = 3). Will run for at most 3 ticks.
+---
+>     Selected from 7 threads (vruntime = 3). Will run for at most 3 ticks.
+1559c1559
+<     Selected from 5 threads (vruntime = 3). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 3). Will run for at most 3 ticks.
+1574c1574
+<     Selected from 5 threads (vruntime = 3). Will run for at most 3 ticks.
+---
+>     Selected from 6 threads (vruntime = 3). Will run for at most 3 ticks.
+1589c1589
+<     Selected from 4 threads (vruntime = 3). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 3). Will run for at most 8 ticks.
+1604c1604
+<     Selected from 3 threads (vruntime = 4). Will run for at most 3 ticks.
+---
+>     Selected from 4 threads (vruntime = 4). Will run for at most 3 ticks.
+1624c1624
+<     Selected from 4 threads (vruntime = 3). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 3). Will run for at most 8 ticks.
+1639c1639
+<     Selected from 4 threads (vruntime = 3). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 3). Will run for at most 8 ticks.
+1654c1654
+<     Selected from 4 threads (vruntime = 4). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 4). Will run for at most 8 ticks.
+1669c1669
+<     Selected from 3 threads (vruntime = 6). Will run for at most 3 ticks.
+---
+>     Selected from 4 threads (vruntime = 6). Will run for at most 3 ticks.
+1689c1689
+<     Selected from 4 threads (vruntime = 4). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 4). Will run for at most 8 ticks.
+1704c1704
+<     Selected from 4 threads (vruntime = 4). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 4). Will run for at most 8 ticks.
+1719c1719
+<     Selected from 4 threads (vruntime = 4). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 4). Will run for at most 8 ticks.
+1734c1734
+<     Selected from 4 threads (vruntime = 5). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 5). Will run for at most 8 ticks.
+1749c1749
+<     Selected from 3 threads (vruntime = 6). Will run for at most 3 ticks.
+---
+>     Selected from 4 threads (vruntime = 6). Will run for at most 3 ticks.
+1769c1769
+<     Selected from 4 threads (vruntime = 5). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 5). Will run for at most 8 ticks.
+1784c1784
+<     Selected from 4 threads (vruntime = 5). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 5). Will run for at most 8 ticks.
+1799c1799
+<     Selected from 3 threads (vruntime = 6). Will run for at most 3 ticks.
+---
+>     Selected from 4 threads (vruntime = 6). Will run for at most 3 ticks.
+1819c1819
+<     Selected from 4 threads (vruntime = 5). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 5). Will run for at most 8 ticks.
+1834c1834
+<     Selected from 4 threads (vruntime = 5). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 5). Will run for at most 8 ticks.
+1849c1849
+<     Selected from 4 threads (vruntime = 6). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 6). Will run for at most 8 ticks.
+1864c1864
+<     Selected from 3 threads (vruntime = 7). Will run for at most 3 ticks.
+---
+>     Selected from 4 threads (vruntime = 7). Will run for at most 3 ticks.
+1884c1884
+<     Selected from 4 threads (vruntime = 6). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 6). Will run for at most 8 ticks.
+1899c1899
+<     Selected from 4 threads (vruntime = 6). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 6). Will run for at most 8 ticks.
+1914c1914
+<     Selected from 4 threads (vruntime = 6). Will run for at most 8 ticks.
+---
+>     Selected from 5 threads (vruntime = 6). Will run for at most 8 ticks.
+1929c1929
+<     Selected from 3 threads (vruntime = 9). Will run for at most 3 ticks.
+---
+>     Selected from 4 threads (vruntime = 9). Will run for at most 3 ticks.
+1944c1944
+<     Selected from 3 threads (vruntime = 9). Will run for at most 3 ticks.
+---
+>     Selected from 4 threads (vruntime = 9). Will run for at most 3 ticks.
+1959c1959
+<     Selected from 3 threads (vruntime = 9). Will run for at most 3 ticks.
+---
+>     Selected from 4 threads (vruntime = 9). Will run for at most 3 ticks.
+1974c1974
+<     Selected from 3 threads (vruntime = 10). Will run for at most 3 ticks.
+---
+>     Selected from 4 threads (vruntime = 10). Will run for at most 3 ticks.
+1989c1989
+<     Selected from 3 threads (vruntime = 12). Will run for at most 3 ticks.
+---
+>     Selected from 4 threads (vruntime = 12). Will run for at most 3 ticks.
+2004c2004
+<     Selected from 3 threads (vruntime = 12). Will run for at most 3 ticks.
+---
+>     Selected from 4 threads (vruntime = 12). Will run for at most 3 ticks.
+2019c2019
+<     Selected from 3 threads (vruntime = 12). Will run for at most 3 ticks.
+---
+>     Selected from 4 threads (vruntime = 12). Will run for at most 3 ticks.
+2034c2034
+<     Selected from 3 threads (vruntime = 13). Will run for at most 3 ticks.
+---
+>     Selected from 4 threads (vruntime = 13). Will run for at most 3 ticks.
+2049c2049
+<     Selected from 3 threads (vruntime = 15). Will run for at most 3 ticks.
+---
+>     Selected from 4 threads (vruntime = 15). Will run for at most 3 ticks.
+2064c2064
+<     Selected from 3 threads (vruntime = 15). Will run for at most 3 ticks.
+---
+>     Selected from 4 threads (vruntime = 15). Will run for at most 3 ticks.
+2079c2079
+<     Selected from 3 threads (vruntime = 15). Will run for at most 3 ticks.
+---
+>     Selected from 4 threads (vruntime = 15). Will run for at most 3 ticks.
+2094c2094
+<     Selected from 2 threads (vruntime = 16). Will run for at most 5 ticks.
+---
+>     Selected from 3 threads (vruntime = 16). Will run for at most 5 ticks.
+2109c2109
+<     Selected from 2 threads (vruntime = 18). Will run for at most 5 ticks.
+---
+>     Selected from 3 threads (vruntime = 18). Will run for at most 5 ticks.
+2124c2124
+<     Selected from 1 threads (vruntime = 18). Will run for at most 12 ticks.
+---
+>     Selected from 2 threads (vruntime = 18). Will run for at most 12 ticks.
+2144c2144
+<     Selected from 1 threads (vruntime = 16). Will run for at most 12 ticks.
+---
+>     Selected from 2 threads (vruntime = 16). Will run for at most 12 ticks.
+2164c2164
+<     Selected from 2 threads (vruntime = 21). Will run for at most 5 ticks.
+---
+>     Selected from 3 threads (vruntime = 21). Will run for at most 5 ticks.
+2179c2179
+<     Selected from 1 threads (vruntime = 21). Will run for at most 12 ticks.
+---
+>     Selected from 2 threads (vruntime = 21). Will run for at most 12 ticks.
+2199c2199
+<     Selected from 1 threads (vruntime = 28). Will run for at most 12 ticks.
+---
+>     Selected from 2 threads (vruntime = 28). Will run for at most 12 ticks.
+2214c2214
+<     Selected from 0 threads (vruntime = 28). Will run for at most 48 ticks.
+---
+>     Selected from 1 threads (vruntime = 28). Will run for at most 48 ticks.
+2234c2234
+<     Selected from 0 threads (vruntime = 40). Will run for at most 48 ticks.
+---
+>     Selected from 1 threads (vruntime = 40). Will run for at most 48 ticks.
+2254c2254
+<     Selected from 0 threads (vruntime = 42). Will run for at most 48 ticks.
+---
+>     Selected from 1 threads (vruntime = 42). Will run for at most 48 ticks.
+2274c2274
+<     Selected from 0 threads (vruntime = 69). Will run for at most 48 ticks.
+---
+>     Selected from 1 threads (vruntime = 69). Will run for at most 48 ticks.
+2294c2294
+<     Selected from 0 threads (vruntime = 87). Will run for at most 48 ticks.
+---
+>     Selected from 1 threads (vruntime = 87). Will run for at most 48 ticks.
+2314c2314
+<     Selected from 0 threads (vruntime = 96). Will run for at most 48 ticks.
+---
+>     Selected from 1 threads (vruntime = 96). Will run for at most 48 ticks.
+2334c2334
+<     Selected from 0 threads (vruntime = 97). Will run for at most 48 ticks.
+---
+>     Selected from 1 threads (vruntime = 97). Will run for at most 48 ticks.
+2354c2354
+<     Selected from 0 threads (vruntime = 118). Will run for at most 48 ticks.
+---
+>     Selected from 1 threads (vruntime = 118). Will run for at most 48 ticks.
